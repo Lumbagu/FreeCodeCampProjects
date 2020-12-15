@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 body {
     color: white;
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
     background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/252950/9d08146d72933fce357c1fe07ca2efef9b089bc9.jpg) no-repeat center fixed;
 }
 
@@ -64,16 +66,20 @@ h2 {
 
 #tribute-link {
     color: white;
-    font-weight: bold;
     outline-color: transparent;
-    text-decoration: none;
-}
-
-#tribute-link:hover {
-    text-decoration: underline;
 }
 
 .padbot {
     margin: 0px;
     padding: 0px 0px 10px 0px;
+}
+
+@media (max-width: 610px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
 }
