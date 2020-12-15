@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+}
+
+div {
+    background-color: white;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #7474BC;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 4em;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
