@@ -1,0 +1,73 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/252950/9d08146d72933fce357c1fe07ca2efef9b089bc9.jpg) no-repeat center fixed;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#main {
+    box-shadow: black 0 0 10px 1px;
+    margin: 0px 10% 0px 10%;
+    background-color: #282A3A;
+    overflow: hidden;
+}
+
+#header {
+    margin: 0px 0px 10px 0px;
+    background-color: #3498DB;
+    padding: 10px;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #35384C;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+#main2 {
+    padding: 10px;
+}
+
+#footer {
+    background-color: #3498DB;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+#tribute-link {
+    color: white;
+    font-weight: bold;
+    outline-color: transparent;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+.padbot {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
