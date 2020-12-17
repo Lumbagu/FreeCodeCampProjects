@@ -5,31 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
     <header id="header">
         <h1 id="title">Polaris Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve our services</p>
     </header>
-    
-    <form action="" id="survey-form">
-        <label for="name" id="name-label">Name:</label>
-        <input type="text" name="name" id="name" placeholder="firstname lastname">
-        <label for="email" id="email-label">Email:</label>
-        <input type="email" name="email" id="email" placeholder="egz@domin.com">
-        <label for="number" id="number-label">Number:</label>
-        <select name="dropdown" id="dropdown">
-            <option value="1">1</option>
-            <option value="2">2</option>
-        </select>
-        <input type="radio" name="g1" id="radio1"><input type="number" name="number" id="number" min="10" max="100" placeholder="10-100">
-        
-    </form>
 
+    <main>
+
+        <form action="" id="survey-form">
+
+            <div class="survey-element">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+            </div>
+
+            <div class="survey-element">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+            </div>
+
+            <div class="survey-element">
+                <label for="number" id="number-label">Number:</label>
+                <input type="number" name="number" id="number" min="10" max="100" placeholder="10 - 100">
+            </div>
+
+            <div class="survey-element">
+                <label for="dropdown">Dropdown:</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="0">0 </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div class="survey-element">
+                <p>Single choice:</p>
+                <div>
+                    <input type="radio" name="g1" value="radio1" id="radio1">
+                    <label for="radio1"><small>Choice 1</small></label>
+                </div>
+                <div>
+                    <input type="radio" name="g1" value="radio2" id="radio2">
+                    <label for="radio2"><small>Choice 2</small></label>
+                </div>
+                <div>
+                    <input type="radio" name="g1" value="radio3" id="radio3">
+                    <label for="radio3"><small>Choice 3</small></label>
+                </div>
+            </div>
+
+            <div class="survey-element">
+                <p>Multiple choice:</p>
+                <div>
+                    <input type="checkbox" value="check1" id="check1">
+                    <label for="check1"><small>Choice 1</small></label>
+                </div>
+                <div>
+                    <input type="checkbox" value="check2" id="check2">
+                    <label for="check1"><small>Choice 2</small></label>
+                </div>
+                <div>
+                    <input type="checkbox" value="check3" id="check3">
+                    <label for="check1"><small>Choice 3</small></label>
+                </div>
+            </div>
+
+            <div class="survey-element">
+                <label for="textarea">Additional comments:</label>
+                <textarea name="textarea" id="textarea" rows="5"
+                    placeholder="You can enter here any additional comments you have"></textarea>
+            </div>
+
+            <div class="survey-element">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+        </form>
+
+    </main>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 
 </html>
