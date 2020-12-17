@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@900&display=swap');
 * {
     padding: 0px;
     margin: 0px;
@@ -12,9 +11,76 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #282A3A;
     font-size: 20px;
+    color: white;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
+}
+
+#header {
+    background-color: #3E4159;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    /* height: 10em; */
+}
+
+#header-img {
+    margin: auto 10px auto 3em;
+    border-radius: 50%;
+    height: 3em;
+    max-height: 128px;
+}
+
+#header span {
+    /* background-color: red; */
+}
+
+#title {
+    font-size: 1.5em;
+}
+
+#polaris {
+    font-family: 'Fira Code', sans-serif;
+    font-weight: 900;
+}
+
+#bracket {
+    color: #85DACC;
+}
+
+#nav-bar {
+    /* width: 20em; */
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nav-bar li {
+    list-style: none;
+    margin: 0px 1em 0px 1em;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 1em;
+    color: inherit;
+}
+
+.header-item {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fas {
+    color: #85DACC;
 }
