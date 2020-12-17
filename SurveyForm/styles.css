@@ -99,6 +99,7 @@ select {
     border-width: 2px;
     border-color: transparent;
     appearance: none;
+    background-color: white;
 }
 
 select:focus {
@@ -112,4 +113,15 @@ option {
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
+}
+
+@media (max-width: 600px) {
+    
+    body {
+        font-size: 1em;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
 }
