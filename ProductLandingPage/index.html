@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <header id="header">
         <div class="header-item">
             <img src="https://raw.githubusercontent.com/Lumbagu/FreeCodeCampProjects/main/ProductLandingPage/PolarisLogo.png"
@@ -17,7 +16,6 @@
             <h1 id="title"><span id="polaris"><span id="bracket">{</span>Polaris<span id="bracket">}</span></span>
                 WebDev</h1>
         </div>
-
         <div class="header-item">
             <nav id="nav-bar">
                 <ul>
@@ -28,18 +26,16 @@
             </nav>
         </div>
     </header>
-
-    <!-- <div style="background-color: red; margin-top: 3.2em;"></div> -->
-
     <main>
         <section id="hero">
-            <h2>High quality, affordable websites and webapps.</h2>
-            <form action="https://www.freecodecamp.com/email-submit" id="form">
-                <input type="email" name="email" id="email" placeholder="Enter your email address">
-                <button type="submit" id="submit">GET STARTED</button>
-            </form>
+            <div id="hero-container">
+                <h2>High quality, affordable websites and webapps.</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address">
+                    <input type="submit" id="submit" value="GET STARTED">
+                </form>
+            </div>
         </section>
-
         <section id="features" class="section">
             <div class="container">
                 <i class="fas fa-briefcase fa-3x fa-fw"></i>
@@ -58,19 +54,65 @@
                     quasi.</p>
             </div>
         </section>
-
         <section id="how-it-works" class="section">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, nostrum.</p>
+            <p><small>Unfortunately, we don't have any video showing our work yet. Have a listen to some good music
+                    instead!</small></p>
+            <iframe id="video" height="360" width="640"
+                src="https://www.youtube-nocookie.com/embed/rPdS8Ij_LuA?rel=0&amp;controls=0&amp;showinfo=0"
+                frameborder="0" allowfullscreen></iframe>
         </section>
-
         <section id="pricing" class="section">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, nostrum.</p>
+            <div class="container2">
+                <div class="card">
+                    <div class="title">
+                        <h2>Simple Website</h2>
+                    </div>
+                    <div class="content">
+                        <h3>$5</h3>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem.</p>
+                        <button class="select-btn">
+                            <h3>SELECT</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <h2>Advanced Website</h2>
+                    </div>
+                    <div class="content">
+                        <h3>$15</h3>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem.</p>
+                        <button class="select-btn">
+                            <h3>SELECT</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <h2>Web App</h2>
+                    </div>
+                    <div class="content">
+                        <h3>$50</h3>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum.</p>
+                        <p>Lorem, ipsum dolor.</p>
+                        <p>Lorem.</p>
+                        <button class="select-btn">
+                            <h3>SELECT</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-
     <script src="https://kit.fontawesome.com/70c6958b9b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
 </body>
 
 </html>
