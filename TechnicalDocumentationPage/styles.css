@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#navbar ul li {
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#main-doc {
+    width: 84%;
+    position: relative;
+    left: 200px;
+}
+
+#main-doc section ul li {
+    background: red;
+    margin-left: 1em;
+}
